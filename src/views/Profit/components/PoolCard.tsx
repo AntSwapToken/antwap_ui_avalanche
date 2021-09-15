@@ -193,7 +193,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         <Label isFinished={isFinished && sousId !== 0} text={`${rewardTokenImage} Earned`} />
         <Flex justifyContent="space-between">
         <Text style={{ fontSize: '12px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>5 %</Text>
+        <Text bold style={{ fontSize: '12px' }}>8 %</Text>
         <Text style={{ fontSize: '12px' }}>{TranslateString(10007, 'Multiplier')}:</Text>
         <Text bold style={{ fontSize: '12px' }}>300x</Text>
       </Flex>

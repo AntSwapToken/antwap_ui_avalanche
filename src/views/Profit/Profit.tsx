@@ -85,11 +85,11 @@ const Farm: React.FC = () => {
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li><a href="https://cchain.explorer.avax.network/address/0xd2A12e4Fd1Cb4b17a014D6149923e89544fc1873/contracts">Staking Contract Address</a></li>
+            <li><a href="https://cchain.explorer.avax.network/address/0x0628fDB71c92bd301F5aA8581e9913b6738C8439/write-contract">Staking Contract Address (0x0628fDB71c92bd301F5aA8581e9913b6738C8439)</a></li>
             <li>Stake = PNG (0x60781C2586D68229fde47564546784ab3fACA982)</li>
             <li>Boost = 300x</li>
-            <li>Deposit Fee = 5%</li>
-            <li>Ants per block  = 0.00001</li>
+            <li>Deposit Fee = 8%</li>
+            <li>Ants per block  = 0.0000029</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>
