@@ -17,7 +17,7 @@ const pools: PoolConfig[] = [
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://avax.antswap.club/',
     harvest: true,
-    tokenPerBlock: '.0025',
+    tokenPerBlock: '.000029',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,
