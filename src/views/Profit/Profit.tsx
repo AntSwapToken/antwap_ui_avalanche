@@ -34,7 +34,7 @@ const Farm: React.FC = () => {
     if (tokenName === 'BNB') {
       return new BigNumber(1)
     }
-    if (tokenPrice && quoteToken === QuoteToken.BUSD) {
+    if (tokenPrice && quoteToken === QuoteToken.USDC_e) {
       return tokenPriceBN.div(bnbPriceUSD)
     }
     return tokenPriceBN
@@ -72,24 +72,24 @@ const Farm: React.FC = () => {
       <Hero>
         <div>
           <Heading as="h1" size="xl" mb="16px">
-            {TranslateString(282, '(DAI) to (ANT) Super Mega Boost Sharing Pool')}
+            {TranslateString(282, 'ANT Dividend Mega Pool')}
           </Heading>
           <ul>
             <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
-            <img src="/images/tokens/dai_to_ant.png" alt="DAI to ANT" width={200} height={860} />
+            <img src="/images/tokens/png_to_ant.png" alt="DAI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
-            <li>* Stake DAI Tokens to receive MEGA dividend payouts.</li>
-            <li>* You can unstake at any time. Once you unstake you can withdraw DAI + Accumulated ANT</li>
+            <li>* Stake PNG Tokens to receive MEGA dividend payouts.</li>
+            <li>* You can unstake at any time. Once you unstake you can withdraw PNG + Accumulated ANT</li>
             <li>* You can harvest Farmed/Accumulated ANT at any time.</li>
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li><a href="https://polygonscan.com/address/0xF968B7BB58F424d5a3B6e0bBcd05b7F93f100AC9">Staking Contract Address</a></li>
-            <li>Stake = DAI (0x8f3cf7ad23cd3cadbd9735aff958023239c6a063)</li>
-            <li>Boost = 3000x</li>
-            <li>Deposit Fee = 20%</li>
-            <li>Ants per block  = 1.0</li>
+            <li><a href="https://cchain.explorer.avax.network/address/0xd2A12e4Fd1Cb4b17a014D6149923e89544fc1873/contracts">Staking Contract Address</a></li>
+            <li>Stake = PNG (0x60781C2586D68229fde47564546784ab3fACA982)</li>
+            <li>Boost = 300x</li>
+            <li>Deposit Fee = 8%</li>
+            <li>Ants per block  = 0.00001</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>
