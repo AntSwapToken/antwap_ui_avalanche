@@ -42,9 +42,13 @@ const config: MenuEntry[] = [
     href: '/profit',
   },
   {
-    label: 'Ant Token Information',
+    label: 'Ant Token Information and Charts',
     icon: 'InfoIcon',
     items: [
+      {
+        label: 'Chart - DexGuru',
+        href: 'https://dex.guru/token/0x0c6c3641f83b66f72a374fac75149574a686cd8b-avalanche',
+      },
       {
         label: 'Github',
         href: 'https://github.com/AntSwapToken/',
