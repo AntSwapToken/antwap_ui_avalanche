@@ -93,7 +93,7 @@ const Farm: React.FC = () => {
             <li>-------------------------------------------------</li>
           </ul>
         </div>
-        <img src="/images/syrup.png" alt="SYRUP POOL icon" width={410} height={191} />
+        <img src="/images/egg/logo.png" alt="ANT icon" width={300} height={300} />
       </Hero>
       <CakeStats />
       <br />
