@@ -88,7 +88,7 @@ const Farm: React.FC = () => {
             <li><a href="https://cchain.explorer.avax.network/address/0xd2A12e4Fd1Cb4b17a014D6149923e89544fc1873/contracts">Staking Contract Address</a></li>
             <li>Stake = PNG (0x60781C2586D68229fde47564546784ab3fACA982)</li>
             <li>Boost = 300x</li>
-            <li>Deposit Fee = 8%</li>
+            <li>Deposit Fee = 5%</li>
             <li>Ants per block  = 0.00001</li>
             <li>-------------------------------------------------</li>
           </ul>
