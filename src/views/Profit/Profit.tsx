@@ -75,7 +75,7 @@ const Farm: React.FC = () => {
             {TranslateString(282, 'ANT Dividend Mega Pool')}
           </Heading>
           <ul>
-            <img src="/images/fly_with_us.png" alt="Ant Fly Icon" width={100} height={100} />
+            <img src="/images/ants_working.png" alt="Ant Fly Icon" width={100} height={100} />
             <img src="/images/tokens/png_to_ant.png" alt="DAI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
