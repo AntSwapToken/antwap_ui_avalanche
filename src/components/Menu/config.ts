@@ -42,29 +42,16 @@ const config: MenuEntry[] = [
     href: '/profit',
   },
   {
-    label: 'Charts',
+    label: 'Ant Token Information',
     icon: 'InfoIcon',
     items: [
       {
-          label: "Dex Guru Charts",
-          href: "",
-      },
-      
-      {
-          label: "Poo Coin Charts",
-          href: "",
-      },
-      {
-          label: "SlingShot Charts",
-          href: "",
-      },
-      {
         label: 'Github',
-        href: '',
+        href: 'https://github.com/AntSwapToken/',
       },
       {
         label: 'Docs',
-        href: '',
+        href: 'https://app.gitbook.com/@antswaptoken/s/anttoken-on-avalanche/',
       },
       {
         label: 'Medium',
@@ -84,7 +71,7 @@ const config: MenuEntry[] = [
               
               {
                   label: "Announcements",
-                  href: "https://antswap.club/",
+                  href: "https://avax.antswap.club/",
               },
            ],
   },
