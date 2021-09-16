@@ -4,7 +4,7 @@ const pools: PoolConfig[] = [
   
 
   {
-    sousId: 1,
+    sousId: 0,
     tokenName: 'PNG',
     stakingTokenName: QuoteToken.PNG,
     stakingTokenAddress: '0x60781C2586D68229fde47564546784ab3fACA982',

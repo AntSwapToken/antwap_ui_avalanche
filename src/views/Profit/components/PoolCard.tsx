@@ -154,11 +154,11 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   return (
 
     <Card isActive={isCardActive} isFinished={isFinished && sousId !== 0}>
-      {pool.stakingTokenName === 'ANT' && <StyledCardAccent />}
+      {pool.stakingTokenName === 'PNG' && <StyledCardAccent />}
       {isFinished && sousId !== 0 && <PoolFinishedSash />}
       <div style={{ padding: '24px' }}>
         <CardTitle isFinished={isFinished && sousId !== 0}>
-          {isOldSyrup && '[OLD]'} {tokenName} {TranslateString(348, 'Pool')}
+          {isOldSyrup && '[OLD]'} {tokenName} {TranslateString(348, 'Pool')} {' - Mega '}
         </CardTitle>
         <div style={{ marginBottom: '8px', display: 'flex', alignItems: 'center' }}>
           <div style={{ flex: 1 }}>
@@ -175,6 +175,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
               }}
             />
           )}
+        
         </div>
         {!isOldSyrup ? (
           <BalanceAndCompound>
@@ -244,7 +245,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
             <span role="img" aria-label={stakingTokenName}>
             <div style={{ flex: 1 }}>
               {TranslateString(384, 'Your Stake')}:
-              <Image src={`/images/tokens/${lpTokenImage}.png`} width={20} height={20} alt="DAI" />{' '}
+              <Image src={`/images/tokens/${lpTokenImage}.png`} width={20} height={20} alt="PNG" />{' '}
               
             </div>
             
