@@ -34,7 +34,8 @@ export enum QuoteToken {
   'PNG' = 'PNG',
   'USDC_e' = 'USDC.e',
   'WBTC_e' = 'WBTC.e',
-  'WAVAX' = 'WAVAX'
+  'WAVAX' = 'WAVAX',
+  'QI' =  'QI'
 
 
  }
@@ -69,7 +70,8 @@ export enum QuoteToken {
   'USDC_e' = 'usdc_e',
 
   'WAVAX' = 'wavax',
-  'WBTC_e' = 'wbtce'
+  'WBTC_e' = 'wbtce',
+  'QI' =  'qi'
 
 
   

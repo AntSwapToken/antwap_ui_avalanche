@@ -76,20 +76,20 @@ const Farm: React.FC = () => {
           </Heading>
           <ul>
             <img src="/images/ants_working.png" alt="Ant Fly Icon" width={100} height={100} />
-            <img src="/images/tokens/png_to_ant.png" alt="DAI to ANT" width={200} height={860} />
+            <img src="/images/tokens/qi_to_ant.png" alt="QI to ANT" width={200} height={860} />
 
             <li>DYOR - Do your own research (High Risk High Rewards)</li>
-            <li>* Stake PNG Tokens to receive MEGA dividend payouts.</li>
-            <li>* You can unstake at any time. Once you unstake you can withdraw PNG + Accumulated ANT</li>
+            <li>* Stake BENQI (QI) Tokens to receive MEGA dividend payouts.</li>
+            <li>* You can unstake at any time. Once you unstake you can withdraw QI + Accumulated ANT</li>
             <li>* You can harvest Farmed/Accumulated ANT at any time.</li>
             <li>* Dividends are distributed linearly over the week.</li>
 
             <li>-------------------------------------------------</li>
-            <li><a href="https://cchain.explorer.avax.network/address/0x0628fDB71c92bd301F5aA8581e9913b6738C8439/write-contract">Staking Contract Address (0x0628fDB71c92bd301F5aA8581e9913b6738C8439)</a></li>
-            <li>Stake = PNG (0x60781C2586D68229fde47564546784ab3fACA982)</li>
-            <li>Boost = 300x</li>
-            <li>Deposit Fee = 8%</li>
-            <li>Ants per block  = 0.0000029</li>
+            <li><a href="https://cchain.explorer.avax.network/address/0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805/write-contract">Staking Contract Address (0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805)</a></li>
+            <li>Stake = QI (https://info.pangolin.exchange/#/token/0x8729438eb15e2c8b576fcc6aecda6a148776c0f5)</li>
+            <li>Boost = 100x</li>
+            <li>Deposit Fee = 10%</li>
+            <li>Ants per block  = 0.00000029</li>
             <li>-------------------------------------------------</li>
           </ul>
         </div>

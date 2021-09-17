@@ -2,6 +2,8 @@ import contracts from './contracts'
 import { FarmConfig, QuoteToken } from './types'
 
 const farms: FarmConfig[] = [
+
+  // PNG Token - 0x60781C2586D68229fde47564546784ab3fACA982
   // Pool 0 - (ANT-USDC)  - Active
   // ----------------------------------------------------------
   {
@@ -12,7 +14,7 @@ const farms: FarmConfig[] = [
       97: '0x013d701f57c916617989639582fbbcbb95518f3e',
       56: '0x013d701f57c916617989639582fbbcbb95518f3e',
       137: '0x013d701f57c916617989639582fbbcbb95518f3e',
-      43114: '0x013d701f57c916617989639582fbbcbb95518f3e'  // ANT - USDC.e
+      43114: '0x013d701f57c916617989639582fbbcbb95518f3e'  // ANT - USDC.e -
     },
     tokenSymbol: 'ANT',
     tokenAddresses: {
@@ -43,7 +45,7 @@ const farms: FarmConfig[] = [
     97: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
     56: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
     137: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B', 
-    43114: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B'  // ANT 
+    43114: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B'  // ANT  -
    },
    quoteTokenSymbol: QuoteToken.ANT,
    quoteTokenAdresses: contracts.ant,
@@ -62,7 +64,7 @@ const farms: FarmConfig[] = [
       97: '0x15d40846dEC37Da3a24B8a861050bF137b82c38C',
       56: '0x15d40846dEC37Da3a24B8a861050bF137b82c38C',
       137: '0x15d40846dEC37Da3a24B8a861050bF137b82c38C',
-      43114: '0x15d40846dEC37Da3a24B8a861050bF137b82c38C'  // ANT - PNG
+      43114: '0x15d40846dEC37Da3a24B8a861050bF137b82c38C'  // ANT - PNG -
     },
     tokenSymbol: 'ANT',
     tokenAddresses: {
@@ -86,7 +88,7 @@ const farms: FarmConfig[] = [
       97: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367',
       56: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367',
       137: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367',
-      43114: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367'  // PNG-WAVAX
+      43114: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367'  // PNG-WAVAX  -
     },
     tokenSymbol: 'PNG',
     tokenAddresses: {
@@ -117,7 +119,7 @@ const farms: FarmConfig[] = [
      97: '0x50b7545627a5162F82A992c33b87aDc75187B218',
      56: '0x50b7545627a5162F82A992c33b87aDc75187B218',
      137: '0x50b7545627a5162F82A992c33b87aDc75187B218', 
-     43114: '0x50b7545627a5162F82A992c33b87aDc75187B218'  // WBTC_e 
+     43114: '0x50b7545627a5162F82A992c33b87aDc75187B218'  // WBTC_e  -
     },
     quoteTokenSymbol: QuoteToken.WBTC_e,
     quoteTokenAdresses: contracts.wbtc_e,
@@ -142,12 +144,39 @@ const farms: FarmConfig[] = [
      97: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5',
      56: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5',
      137: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5', 
-     43114: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5'  // aUSD 
+     43114: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5'  // aUSD  -
     },
     quoteTokenSymbol: QuoteToken.AUSD,
     quoteTokenAdresses: contracts.ausd,
     tokenDecimals: 18,
    },
+
+    // Pool 6 - (PNG) - Active
+  // ----------------------------------------------------------
+  {
+    pid: 6,
+    isTokenOnly: true,
+    risk: 3,
+    lpSymbol: 'PNG',
+    lpAddresses: {
+     97: '0x1fFB6ffC629f5D820DCf578409c2d26A2998a140',
+     56: '0x1fFB6ffC629f5D820DCf578409c2d26A2998a140',
+     137: '0x1fFB6ffC629f5D820DCf578409c2d26A2998a140', 
+     43114: '0x1fFB6ffC629f5D820DCf578409c2d26A2998a140'  // PNG - USDC.e 
+    },
+    tokenSymbol: 'PNG',
+    tokenAddresses: {
+     97: '0x60781C2586D68229fde47564546784ab3fACA982',
+     56: '0x60781C2586D68229fde47564546784ab3fACA982',
+     137: '0x60781C2586D68229fde47564546784ab3fACA982', 
+     43114: '0x60781C2586D68229fde47564546784ab3fACA982'  // PNG  -
+    },
+    quoteTokenSymbol: QuoteToken.PNG,
+    quoteTokenAdresses: contracts.png,
+    tokenDecimals: 18,
+   },
+
+
 
 
 

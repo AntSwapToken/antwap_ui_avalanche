@@ -115,7 +115,7 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
   const blocksUntilStart = Math.max(startBlock - block, 0)
   const blocksRemaining = Math.max(endBlock - block, 0)
   const isOldSyrup = stakingTokenName === QuoteToken.SYRUP
-  const lpTokenImage = ImageName.PNG
+  const lpTokenImage = ImageName.QI
   const rewardTokenImage = QuoteToken.ANT
   const accountHasStakedBalance = stakedBalance?.toNumber() > 0
   const needsApproval = !accountHasStakedBalance && !allowance.toNumber() && !isBnbPool
@@ -142,9 +142,12 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
     try {
       setRequestedApproval(true)
       const txHash = await onApprove()
+      // console.log('approval ' + txHash)
       // user rejected tx or didn't go thru
       if (!txHash) {
         setRequestedApproval(false)
+      
+        // console.info('approval failed ' + txHash)
       }
     } catch (e) {
       console.error(e)
@@ -194,9 +197,9 @@ const PoolCard: React.FC<HarvestProps> = ({ pool }) => {
         <Label isFinished={isFinished && sousId !== 0} text={`${rewardTokenImage} Earned`} />
         <Flex justifyContent="space-between">
         <Text style={{ fontSize: '12px' }}>{TranslateString(10001, 'Deposit Fee')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>8 %</Text>
+        <Text bold style={{ fontSize: '12px' }}>10 %</Text>
         <Text style={{ fontSize: '12px' }}>{TranslateString(10007, 'Multiplier')}:</Text>
-        <Text bold style={{ fontSize: '12px' }}>300x</Text>
+        <Text bold style={{ fontSize: '12px' }}>100x</Text>
       </Flex>
         <StyledCardActions>
           {!account && <UnlockButton />}

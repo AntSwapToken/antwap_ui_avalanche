@@ -5,19 +5,19 @@ const pools: PoolConfig[] = [
 
   {
     sousId: 1,
-    tokenName: 'PNG',
-    stakingTokenName: QuoteToken.PNG,
-    stakingTokenAddress: '0x60781C2586D68229fde47564546784ab3fACA982',
+    tokenName: 'QI',
+    stakingTokenName: QuoteToken.QI,
+    stakingTokenAddress: '0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
     contractAddress: {
-      97: '0x0628fDB71c92bd301F5aA8581e9913b6738C8439',
-      56: '0x0628fDB71c92bd301F5aA8581e9913b6738C8439',
-     137: '0x0628fDB71c92bd301F5aA8581e9913b6738C8439',
-	 43114: '0x0628fDB71c92bd301F5aA8581e9913b6738C8439'
+      97: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805',
+      56: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805',
+     137: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805',
+	 43114: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805'
     },
     poolCategory: PoolCategory.COMMUNITY,
     projectLink: 'https://avax.antswap.club/',
     harvest: true,
-    tokenPerBlock: '.000029',
+    tokenPerBlock: '.0025',
     sortOrder: 1,
     isFinished: false,
     tokenDecimals: 18,

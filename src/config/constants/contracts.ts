@@ -16,8 +16,8 @@ export default {
   sousMasterChef: {
     56: '',
     97: '',
-    137: '0xC302c4f14f1E39747009AeB69682a1078C0795Cc',
-	43114: '0xC302c4f14f1E39747009AeB69682a1078C0795Cc'
+    137: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805',
+	43114: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805'
   },
   lottery: {
     56: '',
@@ -46,7 +46,7 @@ export default {
     56: '',
     97: '',
     137: '', // AUSD
-	  43114: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5'
+	  43114: '0x23Ee3C29E28194C0a25F49F2E38f1143e7b0e0C5' // aUSD
   },
   
   png: {
@@ -74,5 +74,11 @@ export default {
     97: '',
     137: '', 
 	  43114: '0x50b7545627a5162F82A992c33b87aDc75187B218' // WBTC_e
+  },
+  qi: {
+    56: '',
+    97: '',
+    137: '', 
+	  43114: '0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5' // QI
   },
 }
