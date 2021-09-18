@@ -66,7 +66,9 @@ const Home: React.FC = () => {
 
           <img src="/images/title_bar_avax.png" alt="ant banner" width={950} height={125} />
 
-          
+          <Text bold fontSize="24px">
+            { 'Staking starts @ Block # 4441106, almost 19k blocks left' }
+          </Text>
 
       </Hero>
       <div>
