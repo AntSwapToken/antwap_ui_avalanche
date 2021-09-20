@@ -204,7 +204,29 @@ const farms: FarmConfig[] = [
   },
 
 
-
+// Pool 8 - (PNG-WAVAX)  - Active
+  // ----------------------------------------------------------
+  
+  {
+    pid: 8,
+    risk: 5,
+    lpSymbol: 'ANT-WAVAX',
+    lpAddresses: {
+      97: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
+      56: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
+      137: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
+      43114: '0x38312C15F705dA301FCEEd651E52d5297AD61049'  // ANT-WAVAX  -
+    },
+    tokenSymbol: 'ANT',
+    tokenAddresses: {
+      97: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      56: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      137: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      43114: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B' //  ANT
+    },
+    quoteTokenSymbol: QuoteToken.WAVAX,
+    quoteTokenAdresses: contracts.wavax,
+  },
 
 
 
