@@ -17,7 +17,7 @@ export default {
     56: '',
     97: '',
     137: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805',
-	43114: '0xFccf0c39E052316d36A76E222dE4dCD2fC7e4805'
+	43114: '0xbCa420F9D953974aaC819d04d3af0ec760E5a7eC'
   },
   lottery: {
     56: '',

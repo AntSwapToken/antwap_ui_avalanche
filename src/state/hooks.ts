@@ -81,7 +81,7 @@ export const usePriceBnbBusd = (): BigNumber => {
 
 export const usePriceCakeBusd = (): BigNumber => {
 
-  const pid = 0 // ANT  LP
+  const pid = 7// ANT  LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
   // return new BigNumber(farm.tokenPriceVsQuote)

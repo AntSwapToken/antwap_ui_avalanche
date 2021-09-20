@@ -9,7 +9,7 @@ import { QuoteToken } from '../../config/constants/types'
 const CHAIN_ID = process.env.REACT_APP_CHAIN_ID
 
 const valueinBTC = async() => {
-  const farmConfig = farmsConfig.find(f=>f.tokenSymbol===QuoteToken.ANT);
+  const farmConfig = farmsConfig.find(f=>f.tokenSymbol===QuoteToken.PNG);
   const lpAdress = farmConfig.lpAddresses[CHAIN_ID]
   const calls = [
     // Balance of token in the LP contract
@@ -130,6 +130,8 @@ const fetchFarms = async () => {
                || farmConfig.quoteTokenSymbol === QuoteToken.AWETH 
                || farmConfig.quoteTokenSymbol === QuoteToken.QI 
                || farmConfig.quoteTokenSymbol === QuoteToken.USDT_e 
+               || farmConfig.quoteTokenSymbol === QuoteToken.USDC_e 
+               || farmConfig.quoteTokenSymbol === QuoteToken.WAVAX 
             )   
             && (farmConfig.quoteTokenSymbol === QuoteToken.USDC_e )
             )
@@ -137,10 +139,10 @@ const fetchFarms = async () => {
             tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
          }
          else if (farmConfig.tokenSymbol === QuoteToken.WBTC_e) {
-          tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(2))
+          // tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(2))
          }
           else if (farmConfig.tokenSymbol === QuoteToken.AWETH) {
-          tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
+          // tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(10).pow(12))
          } 
         else {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP))
@@ -205,7 +207,7 @@ const fetchFarms = async () => {
       }
     }),
   )
-  // console.log('data: ', data)
+  console.log('data: ', data)
   return data
 }
 

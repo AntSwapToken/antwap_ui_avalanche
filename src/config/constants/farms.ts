@@ -6,6 +6,7 @@ const farms: FarmConfig[] = [
   // PNG Token - 0x60781C2586D68229fde47564546784ab3fACA982
   // Pool 0 - (ANT-USDC)  - Active
   // ----------------------------------------------------------
+  /*
   {
     pid: 0,
     risk: 1,
@@ -26,6 +27,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC_e,
     quoteTokenAdresses: contracts.usdc_e,
   },
+  */
 
   // Pool 1 - (ANT) - Active
   // ----------------------------------------------------------

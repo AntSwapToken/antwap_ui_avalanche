@@ -132,6 +132,9 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm, removed, cakePrice, bnbPrice,
     if (farm.quoteTokenSymbol === QuoteToken.QI) {
       return cakePrice.times(farm.lpTotalInQuoteToken)
     }
+    if (farm.quoteTokenSymbol === QuoteToken.WAVAX) {
+      return cakePrice.times(farm.lpTotalInQuoteToken)
+    }
     
     return farm.lpTotalInQuoteToken
   }, [bnbPrice, cakePrice, farm.lpTotalInQuoteToken, farm.quoteTokenSymbol])
