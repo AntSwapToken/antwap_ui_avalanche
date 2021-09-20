@@ -109,6 +109,8 @@ export const useTotalValue = (): BigNumber => {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.QI) {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
+      }  else if (farm.quoteTokenSymbol === QuoteToken.USDT_e) {
+        val = bnbPrice.times(farm.lpTotalInQuoteToken)
       } 
       else {
         val = new BigNumber(farm.lpTotalInQuoteToken)

@@ -129,6 +129,7 @@ const fetchFarms = async () => {
                || farmConfig.quoteTokenSymbol === QuoteToken.AUSD 
                || farmConfig.quoteTokenSymbol === QuoteToken.AWETH 
                || farmConfig.quoteTokenSymbol === QuoteToken.QI 
+               || farmConfig.quoteTokenSymbol === QuoteToken.USDT_e 
             )   
             && (farmConfig.quoteTokenSymbol === QuoteToken.USDC_e )
             )

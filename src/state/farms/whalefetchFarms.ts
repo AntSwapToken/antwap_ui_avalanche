@@ -64,6 +64,8 @@ const fetchFarms = async () => {
         tokenAmount = new BigNumber(lpTokenBalanceMC).div(new BigNumber(10).pow(6));
         if(farmConfig.tokenSymbol === QuoteToken.USDC_e && farmConfig.quoteTokenSymbol === QuoteToken.USDC_e){
           tokenPriceVsQuote = new BigNumber(1);
+        }else if(farmConfig.tokenSymbol === QuoteToken.USDT_e && farmConfig.quoteTokenSymbol === QuoteToken.USDT_e){
+          tokenPriceVsQuote = new BigNumber(1);
         } else if (farmConfig.lpSymbol === QuoteToken.WBTC_e) { 
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP)).times(new BigNumber(1000));
         } else{
@@ -74,7 +76,7 @@ const fetchFarms = async () => {
 
         if (farmConfig.lpSymbol === QuoteToken.WBTC_e) {
         lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(9)).times(new BigNumber(1000000));
-        } else if (farmConfig.lpSymbol === QuoteToken.USDC_e || farmConfig.lpSymbol === QuoteToken.USDC_e || farmConfig.lpSymbol === QuoteToken.USDC_e) {
+        } else if (farmConfig.lpSymbol === QuoteToken.USDC_e || farmConfig.lpSymbol === QuoteToken.USDT_e) {
           lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(18)).times(new BigNumber(1000000));
         }else if (farmConfig.lpSymbol === 'aWETH' ) {
           lpTotalInQuoteToken = tokenAmount.times(tokenPriceVsQuote).div(new BigNumber(10).pow(18)).times(new BigNumber(1000000));
