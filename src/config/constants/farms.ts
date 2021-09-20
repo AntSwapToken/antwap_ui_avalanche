@@ -204,7 +204,7 @@ const farms: FarmConfig[] = [
   },
 
 
-// Pool 8 - (PNG-WAVAX)  - Active
+  // Pool 8 - (PNG-WAVAX)  - Active
   // ----------------------------------------------------------
   
   {
@@ -227,6 +227,34 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.WAVAX,
     quoteTokenAdresses: contracts.wavax,
   },
+
+  
+  // Pool 9 - (PNG-WAVAX)  - Active
+  // 
+
+  {
+    pid: 9,
+    isTokenOnly: true,
+    risk: 3,
+    lpSymbol: 'WAVAX',
+    lpAddresses: {
+     97: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367',
+     56: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367',
+     137: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367', 
+     43114: '0xd7538cABBf8605BdE1f4901B47B8D42c61DE0367'  // PNG - WAVAX 
+    },
+    tokenSymbol: 'WAVAX',
+    tokenAddresses: {
+     97: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+     56: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+     137: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7', 
+     43114: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7'  // WAVAX  -
+    },
+    quoteTokenSymbol: QuoteToken.WAVAX,
+    quoteTokenAdresses: contracts.wavax,
+    tokenDecimals: 18,
+   },
+
 
 
 
