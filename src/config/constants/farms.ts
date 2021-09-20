@@ -190,7 +190,7 @@ const farms: FarmConfig[] = [
       97: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
       56: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
       137: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
-      43114: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240'  // ANT-USDT_e  -
+      43114: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240'  // ANT-USDT_e  
     },
     tokenSymbol: 'ANT',
     tokenAddresses: {
@@ -202,11 +202,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDT_e,
     quoteTokenAdresses: contracts.usdt_e,
   },
-
-
   // Pool 8 - (PNG-WAVAX)  - Active
-  // ----------------------------------------------------------
-  
   {
     pid: 8,
     risk: 5,
@@ -215,7 +211,7 @@ const farms: FarmConfig[] = [
       97: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
       56: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
       137: '0x38312C15F705dA301FCEEd651E52d5297AD61049',
-      43114: '0x38312C15F705dA301FCEEd651E52d5297AD61049'  // ANT-WAVAX  -
+      43114: '0x38312C15F705dA301FCEEd651E52d5297AD61049'  // ANT-WAVAX
     },
     tokenSymbol: 'ANT',
     tokenAddresses: {
