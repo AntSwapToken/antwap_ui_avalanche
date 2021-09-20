@@ -6,7 +6,7 @@ const farms: FarmConfig[] = [
   // PNG Token - 0x60781C2586D68229fde47564546784ab3fACA982
   // Pool 0 - (ANT-USDC)  - Active
   // ----------------------------------------------------------
-  /*
+  
   {
     pid: 0,
     risk: 1,
@@ -27,7 +27,7 @@ const farms: FarmConfig[] = [
     quoteTokenSymbol: QuoteToken.USDC_e,
     quoteTokenAdresses: contracts.usdc_e,
   },
-  */
+  
 
   // Pool 1 - (ANT) - Active
   // ----------------------------------------------------------
@@ -37,10 +37,10 @@ const farms: FarmConfig[] = [
    risk: 3,
    lpSymbol: 'ANT',
    lpAddresses: {
-    97: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4',
-    56: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4',
-    137: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4', 
-    43114: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4'  // ANT - USDC.e
+    97: '',
+    56: '',
+    137: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4', // USDC_e
+    43114: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4'  // ANT - USDT.e
    },
    tokenSymbol: 'ANT',
    tokenAddresses: {
@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
    },
    quoteTokenSymbol: QuoteToken.ANT,
    quoteTokenAdresses: contracts.ant,
-   tokenDecimals: 18,
+   tokenDecimals: 6,
   },
 
   // 

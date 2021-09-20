@@ -9,7 +9,7 @@ import { QuoteToken } from '../../config/constants/types'
 const CHAIN_ID = process.env.REACT_APP_CHAIN_ID
 
 const valueinBTC = async() => {
-  const farmConfig = farmsConfig.find(f=>f.tokenSymbol===QuoteToken.PNG);
+  const farmConfig = farmsConfig.find(f=>f.tokenSymbol===QuoteToken.USDT_e);
   const lpAdress = farmConfig.lpAddresses[CHAIN_ID]
   const calls = [
     // Balance of token in the LP contract

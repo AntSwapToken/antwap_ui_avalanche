@@ -4,7 +4,7 @@ const pools: PoolConfig[] = [
   
 
   {
-    sousId: 7,
+    sousId: 1,
     tokenName: 'QI',
     stakingTokenName: QuoteToken.QI,
     stakingTokenAddress: '0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5',
