@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
   // ----------------------------------------------------------
   {
     pid: 0,
-    risk: 5,
+    risk: 1,
     lpSymbol: 'ANT-USDC_e',
     lpAddresses: {
       97: '0x013d701f57c916617989639582fbbcbb95518f3e',
@@ -35,10 +35,10 @@ const farms: FarmConfig[] = [
    risk: 3,
    lpSymbol: 'ANT',
    lpAddresses: {
-    97: '0x013d701f57c916617989639582fbbcbb95518f3e',
-    56: '0x013d701f57c916617989639582fbbcbb95518f3e',
-    137: '0x013d701f57c916617989639582fbbcbb95518f3e', 
-    43114: '0x013d701f57c916617989639582fbbcbb95518f3e'  // ANT - USDC.e
+    97: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4',
+    56: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4',
+    137: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4', 
+    43114: '0x5c8F8D0ee94DCBee20F3c296e16b5fb7C3a79cC4'  // ANT - USDC.e
    },
    tokenSymbol: 'ANT',
    tokenAddresses: {
@@ -175,6 +175,32 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.png,
     tokenDecimals: 18,
    },
+
+   
+  // Pool 7 - (ANT-USDT.e)  - Active
+  // ----------------------------------------------------------
+  
+  {
+    pid: 7,
+    risk: 5,
+    lpSymbol: 'ANT-USDT_e',
+    lpAddresses: {
+      97: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
+      56: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
+      137: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240',
+      43114: '0x4f2f7913A716C6dCd11C2F7815D1859A1Ec6b240'  // ANT-USDT_e  -
+    },
+    tokenSymbol: 'ANT',
+    tokenAddresses: {
+      97: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      56: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      137: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      43114: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B' //  ANT
+    },
+    quoteTokenSymbol: QuoteToken.USDT_e,
+    quoteTokenAdresses: contracts.usdt_e,
+  },
+
 
 
 

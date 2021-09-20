@@ -81,4 +81,10 @@ export default {
     137: '', 
 	  43114: '0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5' // QI
   },
+  usdt_e: {
+    56: '',
+    97: '',
+    137: '', 
+	  43114: '0xc7198437980c041c805A1EDcbA50c1Ce5db95118' // USDT_e
+  },
 }
