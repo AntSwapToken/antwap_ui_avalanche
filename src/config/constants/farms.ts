@@ -51,7 +51,7 @@ const farms: FarmConfig[] = [
    },
    quoteTokenSymbol: QuoteToken.ANT,
    quoteTokenAdresses: contracts.ant,
-   tokenDecimals: 6,
+   tokenDecimals: 18,
   },
 
   // 
