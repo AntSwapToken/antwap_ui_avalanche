@@ -104,7 +104,7 @@ export const useTotalValue = (): BigNumber => {
       } else if (farm.quoteTokenSymbol === QuoteToken.AUSD) {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.WAVAX) {
-        val = bnbPrice.times(farm.lpTotalInQuoteToken)
+        val = cakePrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.WBTC_e) {
         val = bnbPrice.times(farm.lpTotalInQuoteToken)
       } else if (farm.quoteTokenSymbol === QuoteToken.QI) {
