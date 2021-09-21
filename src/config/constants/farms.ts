@@ -250,6 +250,27 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wavax,
     tokenDecimals: 18,
    },
+   // Pool 10 - (ANT-IronICE)  - Active
+  {
+    pid: 10,
+    risk: 5,
+    lpSymbol: 'ANT-IronICE',
+    lpAddresses: {
+      97: '0x50dfd6Dc5A6B0Db9F5732e1086d8fABe6815F52C',
+      56: '0x50dfd6Dc5A6B0Db9F5732e1086d8fABe6815F52C',
+      137: '0x50dfd6Dc5A6B0Db9F5732e1086d8fABe6815F52C',
+      43114: '0x50dfd6Dc5A6B0Db9F5732e1086d8fABe6815F52C'  // ANT - IronICE
+    },
+    tokenSymbol: 'ANT',
+    tokenAddresses: {
+      97: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      56: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      137: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B',
+      43114: '0x0C6C3641f83B66f72A374faC75149574A686Cd8B' //  ANT
+    },
+    quoteTokenSymbol: QuoteToken.IRONICE,
+    quoteTokenAdresses: contracts.ironice,
+  },
 
 
 

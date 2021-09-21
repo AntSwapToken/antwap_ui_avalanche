@@ -87,4 +87,10 @@ export default {
     137: '', 
 	  43114: '0xc7198437980c041c805A1EDcbA50c1Ce5db95118' // USDT_e
   },
+  ironice: {
+    56: '',
+    97: '',
+    137: '', 
+	  43114: '0xfC108f21931576a21D0b4b301935DAc80d9E5086' // IronICE
+  },
 }
